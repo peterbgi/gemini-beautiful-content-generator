@@ -22,6 +22,7 @@ export default function RootLayout({
       baseTheme: dark,
     }}>
       <html lang="hu">
+        
       <body className={`${inter.className} bg-black text-white antialiased`}>
             {children}
       </body>
